@@ -1,0 +1,101 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ba5140cefabcef696f82c8851c4fba46",
+    "packages": [
+        {
+            "name": "academy01/input-sanitizer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhnobakht/input-sanitizer.git",
+                "reference": "289de8de1f3da0eaac6a754f3f33753f05c0001e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhnobakht/input-sanitizer/zipball/289de8de1f3da0eaac6a754f3f33753f05c0001e",
+                "reference": "289de8de1f3da0eaac6a754f3f33753f05c0001e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Academy01\\InputSanitizer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mhnobakht",
+                    "email": "01programmingacademy@gmail.com"
+                }
+            ],
+            "description": "PHP Package to Sanitizes a String or Array to prevent common Vulnerabilities",
+            "support": {
+                "issues": "https://github.com/mhnobakht/input-sanitizer/issues",
+                "source": "https://github.com/mhnobakht/input-sanitizer/tree/main"
+            },
+            "time": "2024-03-03T09:54:19+00:00"
+        },
+        {
+            "name": "academy01/semej",
+            "version": "v1.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhnobakht/Semej.git",
+                "reference": "d47b4b8c3ccb31835e935580d244d009b7c50ff0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhnobakht/Semej/zipball/d47b4b8c3ccb31835e935580d244d009b7c50ff0",
+                "reference": "d47b4b8c3ccb31835e935580d244d009b7c50ff0",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Academy01\\Semej\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "'academy01'",
+                    "email": "80899303+mhnobakht@users.noreply.github.com"
+                }
+            ],
+            "description": "Simple package to show alert messages using session",
+            "support": {
+                "issues": "https://github.com/mhnobakht/Semej/issues",
+                "source": "https://github.com/mhnobakht/Semej/tree/v1.0.0"
+            },
+            "time": "2023-07-20T16:51:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "academy01/input-sanitizer": 20,
+        "academy01/semej": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
