@@ -90,8 +90,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "academy01/input-sanitizer": 20,
-        "academy01/semej": 20
+        "academy01/input-sanitizer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

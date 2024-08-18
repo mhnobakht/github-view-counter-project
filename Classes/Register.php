@@ -2,6 +2,8 @@
 
 namespace Classes;
 
+use Academy01\Semej\Semej;
+
 class Register {
 
     protected $data;
@@ -28,10 +30,12 @@ class Register {
         ];
 
         if($this->connection->insert('users', $userData)) {
-            echo 'OK';
+            Semej::set('success', 'OK', 'User register successfully.');
         }else{
-            echo 'Not OK';
+            Semej::set('danger', 'Error', 'register failed');
         }
+
+        header('Location: register.php');die;
 
     }
 
