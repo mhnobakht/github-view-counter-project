@@ -2,6 +2,7 @@
     "minimum-stability": "dev",
     "require": {
         "academy01/input-sanitizer": "dev-main",
-        "academy01/semej": "v1.0.0.x-dev"
+        "academy01/semej": "v1.0.0.x-dev",
+        "academy01/auth-token": "1.1.x-dev"
     }
 }

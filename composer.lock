@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba5140cefabcef696f82c8851c4fba46",
+    "content-hash": "28994cd1f36b6ed6cd33b3904668ab4e",
     "packages": [
+        {
+            "name": "academy01/auth-token",
+            "version": "1.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhnobakht/AuthToken.git",
+                "reference": "b268bdf0a6ad81404534954a0f8edb86121f7b29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhnobakht/AuthToken/zipball/b268bdf0a6ad81404534954a0f8edb86121f7b29",
+                "reference": "b268bdf0a6ad81404534954a0f8edb86121f7b29",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Academy01\\AuthToken\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mhnobakht",
+                    "email": "01programmingacademy@gmail.com"
+                }
+            ],
+            "description": "authentication manager system for php",
+            "support": {
+                "issues": "https://github.com/mhnobakht/AuthToken/issues",
+                "source": "https://github.com/mhnobakht/AuthToken/tree/1.1"
+            },
+            "time": "2023-09-05T16:18:52+00:00"
+        },
         {
             "name": "academy01/input-sanitizer",
             "version": "dev-main",
@@ -90,7 +131,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "academy01/input-sanitizer": 20
+        "academy01/input-sanitizer": 20,
+        "academy01/semej": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

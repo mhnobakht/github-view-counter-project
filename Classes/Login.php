@@ -2,6 +2,7 @@
 
 namespace Classes;
 
+use Academy01\AuthToken\AuthToken;
 use Academy01\Semej\Semej;
 
 class Login {
@@ -34,7 +35,8 @@ class Login {
         header('Location: login.php');die;
        }
 
-
+       $_SESSION['username'] = $user['email'];
+       AuthToken::generate();
       header('Location: dashboard.php');die;
 
     }
