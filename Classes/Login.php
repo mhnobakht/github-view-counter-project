@@ -36,6 +36,7 @@ class Login {
        }
 
        $_SESSION['username'] = $user['email'];
+       $_SESSION['user_id'] = $user['id'];
        AuthToken::generate();
       header('Location: dashboard.php');die;
 
