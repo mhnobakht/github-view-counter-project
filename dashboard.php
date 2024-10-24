@@ -265,6 +265,7 @@ if(isset($_GET['page'])) {
     
     <!-- Main content -->
     <section class="content">
+      <?php Semej::show(); ?>
       <?php include_once $pagePath; ?>
     </section>
     <!-- /.content -->

@@ -1,3 +1,13 @@
+<?php
+
+use Classes\Link;
+
+$link = new Link();
+
+$links = $link->showLinks();
+
+
+?>
 <div class="row">
     <div class="col-12">
         <h2>Links</h2>
@@ -15,12 +25,16 @@
             </tr>
             </thead>
             <tbody>
+           <?php 
+            foreach($links as $link):
+           ?>
             <tr>
-                <td>test1</td>
-                <td>abc123</td>
-                <td>0</td>
+                <td><?php echo $link['title']; ?></td>
+                <td><?php echo $link['uuid']; ?></td>
+                <td><?php echo $link['counter']; ?></td>
                 <td>Edit</td>
             </tr>
+            <?php endforeach; ?>
             </tbody>
         </table>
     </div>

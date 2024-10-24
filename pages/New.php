@@ -4,8 +4,8 @@ use Classes\Link;
 
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
     if(isset($_POST['title'])) {
-        $link = new Link($_POST['title']);
-        $link->addLink();
+        $link = new Link();
+        $link->addLink($_POST['title']);
     }
 }
 
