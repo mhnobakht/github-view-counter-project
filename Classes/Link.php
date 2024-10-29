@@ -43,4 +43,20 @@ class Link {
 
         return $allLinks;
     }
+
+    public function incrementCounter($uuid) {
+        $link = $this->connection->select('links', "uuid='$uuid'");
+        if($link === false) {
+            return false;
+        }
+
+        $updateData = [
+            'counter' => ++$link['counter']
+        ];
+        $this->connection->update('links', $updateData, "uuid='$uuid'");
+
+
+        return $link['counter'];
+
+    }
 }
